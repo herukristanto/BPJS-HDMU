@@ -1,0 +1,10 @@
+-jquery ui datepicker
+
+* HTML
+<input type="text" class="datepicker" id="datepicker" name="datepicker" />
+
+* javascript
+$( function() {
+	$( "#datepicker" ).datepicker({dateFormat: "dd/mm/yy"}); //using id
+	$( ".datepicker" ).datepicker({dateFormat: "dd/mm/yy"}); //using class
+});
